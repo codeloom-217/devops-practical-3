@@ -4,7 +4,7 @@ node {
     }
 
     stage('Run Application') {
-        bat 'python app.py'
+        bat 'py app.py'
     }
 
     stage('Build Docker Image') {
