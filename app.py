@@ -1,0 +1,1 @@
+print("This is the 3rd Practical of DevOps")
