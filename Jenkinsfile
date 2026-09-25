@@ -4,7 +4,7 @@ node {
     }
 
     stage('Run Application') {
-        bat 'py app.py'
+        bat '"C:\\Users\\mugdh\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" app.py'
     }
 
     stage('Build Docker Image') {
